@@ -1,17 +1,9 @@
-import { HeroVideo } from "@/components/landing/hero-video"
-import { WhatThisIs } from "@/components/landing/what-this-is"
-import { PilotSummary } from "@/components/landing/pilot-summary"
-import { GlobalCounter } from "@/components/global-counter"
-import { ClosingStatement } from "@/components/landing/closing-statement"
+import { ArtGallerySlider } from "@/components/art-gallery-slider"
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <>
-      <HeroVideo />
-      <WhatThisIs />
-      <PilotSummary />
-      <GlobalCounter />
-      <ClosingStatement />
-    </>
+    <main className="h-screen w-screen overflow-hidden bg-black">
+      <ArtGallerySlider />
+    </main>
   )
 }
